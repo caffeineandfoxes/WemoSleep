@@ -1,0 +1,8 @@
+# System Files
+.DS_Store
+
+# NPM Files
+.npmignore
+
+# Cordova Build Files
+build/
