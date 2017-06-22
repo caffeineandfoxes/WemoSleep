@@ -16,6 +16,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+var IFTTT_MAKER_ADDRESS = 'YOUR IFTTT MAKER URL HERE';
+
 var app = {
   // Application Constructor
   initialize: function() {
@@ -81,7 +83,7 @@ function sleepTimer(duration) {
     if (timeRemaining.total <= 0) {
       clearInterval(appTimer);
       $('#countdown-div h1').html('Goodnight!');
-      var requestAddr = 'https://maker.ifttt.com/trigger/timer_expired/with/key/vAvhm5cEULr-XiOaCyZG1';
+      var requestAddr = IFTTT_MAKER_ADDRESS;
       $.get(requestAddr);
       var resetTimer = setInterval(resetUI, 5000, resetTimer);
     }
