@@ -1,10 +1,9 @@
 # WemoSleep
-## Overview
 WemoSleep is an [Apache Cordova](https://cordova.apache.org) app which ties in with the [IFTTT Maker Webhooks service](https://ifttt.com/maker_webhooks) to add sleep timer functionality to [Wemo](http://www.belkin.com/us/Products/home-automation/c/wemo-home-automation/) switches.
 
 ## Requirements
 * A supported Wemo switch
-* An IFTTT account configured to receive triggers through the Maker Webhooks service
+* An [IFTTT](https://ifttt.com/) account configured to receive triggers through the Maker Webhooks service
 * A compatible device or browser (see Current Target Platforms)
 
 ## Setup
@@ -17,7 +16,7 @@ Please note that these instructions assume you have installed and configured Cor
 5. Using a terminal application, navigate to the project directory, and run `cordova build <PLATFORM>`.
 6. Install the app on your device using the freshly built binary. These will be located in `platforms/<PLATFORM>/build`. :)
 
-## Use
+## Usage
 Using WemoSleep is simple. All you have to do is set the timer and let it run. When the timer expires, your Wemo switch will turn off.
 
 ## Current Target Platforms
