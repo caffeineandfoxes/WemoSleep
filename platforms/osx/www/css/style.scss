@@ -160,7 +160,9 @@ body {
   right: 0;
   bottom: 0;
   color: $white;
-  background: $nightSky;
+  background: $nightSky url('../img/nightsky.jpg');
+  background-size: cover;
+  background-blend-mode: luminosity;
 }
 
 .main-content {

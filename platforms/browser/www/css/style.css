@@ -28,8 +28,8 @@ body {
   -webkit-user-select: none;
   /* prevent copy paste, to allow, change 'none' to 'text' */
   background-color: #E4E4E4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #A7A7A7), color-stop(51%, #E4E4E4));
   background-image: linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
   background-image: -ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #A7A7A7), color-stop(0.51, #E4E4E4));
   background-attachment: fixed;
@@ -124,8 +124,10 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #071f44;
-  color: white; }
+  color: white;
+  background: #071f44 url("../img/nightsky.jpg");
+  background-size: cover;
+  background-blend-mode: luminosity; }
 
 h1.page-title {
   margin-bottom: 25px; }
@@ -137,7 +139,6 @@ h1.page-title {
   border-radius: 30px;
   font-size: 1.5em;
   color: white;
-  -webkit-transition: background-color 350ms;
   transition: background-color 350ms; }
 
 .btn:hover, .btn:active {
