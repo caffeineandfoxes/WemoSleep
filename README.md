@@ -21,12 +21,11 @@ Using WemoSleep is simple. All you have to do is set the timer and let it run. W
 
 ## Current Target Platforms
 * iOS
+* Android - **Currently untested on hardware devices**
 * macOS
 * Browser
 
 ## Upcoming Changes
-* Improve design to be more responsive, and make better use of the visual space.
 * Correct an issue where the timer doesn't continue to run when the app is in the background (currently only occurring on iOS).
 * Add graphical assets for the app's icon, splash screen, etc.
 * Add functionality in-app to allow user to enter their IFTTT information to eliminate the need for the user to modify and build the app from project source.
-* Add support for Android.
