@@ -6,3 +6,4 @@
 
 # Cordova Build Files
 build/
+.vscode
