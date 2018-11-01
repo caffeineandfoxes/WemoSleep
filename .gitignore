@@ -3,7 +3,11 @@
 
 # NPM Files
 .npmignore
+node_modules
 
 # Cordova Build Files
 build/
+
+// Visual Studio Code
 .vscode
+jsconfig.json
